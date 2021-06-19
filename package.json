@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "verify": "node test.js"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
