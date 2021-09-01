@@ -5,9 +5,20 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "verify": "node test.js"
   },
+  "jest": {
+    "reporters": [
+      "default",
+      "<rootDir>/node_modules/cli-jest-reporter/index.js"
+    ]
+  },
   "dependencies": {
+    "cli-jest-reporter": "https://github.com/g2i/cli-jest-reporter",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }
