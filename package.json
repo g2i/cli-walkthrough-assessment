@@ -5,10 +5,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "verify": "node test.js"
+    "test": "yarn jest",
+    "jest": "node --experimental-vm-modules node_modules/.bin/jest",
+    "verify": "yarn test ./test.js"
   },
   "jest": {
+    "transform": {},
     "reporters": [
       "default",
       "<rootDir>/node_modules/cli-jest-reporter/index.js"
