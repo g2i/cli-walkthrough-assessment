@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm run jest",
     "jest": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
-    "verify": "yarn test ./test.js"
+    "verify": "npm run jest ./test.js"
   },
   "jest": {
     "transform": {},
