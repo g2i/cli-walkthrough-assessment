@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn jest",
+    "test": "npm run jest",
     "jest": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "verify": "yarn test ./test.js"
   },
